@@ -7,7 +7,7 @@ gols = list()
 
 for c in range(0, partidas):
     gol = int(input(f'  Quantos gols na partida {c}? '))
-    gols.append(gol[:])
+    gols.append(gol)
     sGols += gol
     
 
