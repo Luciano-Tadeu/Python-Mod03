@@ -39,7 +39,7 @@ while True:
     ind = int(input("Mostrar dados de qual jogador? (999 para parar) "))
     if ind == 999:
         break
-    elif ind > len(totalDados):
+    elif ind > (len(totalDados) - 1) or ind < 0:
         print(f"ERRO! Digite entre 0 e {len(totalDados) - 1}")
     else:
         nome = totalDados[ind]["nome"]
